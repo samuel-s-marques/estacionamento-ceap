@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<title>CEAP | Login</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="public/css/adm.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<form class="form-signin" method="POST" action="login.php">
+		<center>
+			<img class="mb-4" src="public/imgs/logo.png" alt="" width="150" height="140">
+			<h1 class="h3 mb-3 font-weight-normal">Login</h1>
+		</center>
+
+		<div class="form-label-group has-user">
+			<span class="fa fa-user form-control-user"></span>
+			<label for="usr" class="sr-only">Nome de usuário</label>
+			<input type="text" id="usr" name="user" class="form-control" placeholder="Nome de usuário" autofocus autocomplete="on" required>
+		</div>
+
+		<div class="form-label-group">
+			<i class="fa fa-key icon"></i>
+			<label for="pass" class="sr-only">Senha</label>
+			<input type="password" id="pass" name="pass" class="form-control" placeholder="Senha" required>
+		</div>
+
+		<div class="custom-control custom-checkbox mb-3">
+			<input type="checkbox" class="custom-control-input" id="chk">
+			<label class="custom-control-label" for="chk">Lembrar senha</label>
+		</div>
+
+		<button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Fazer login</button>
+	</form>
+</body>
+</html>

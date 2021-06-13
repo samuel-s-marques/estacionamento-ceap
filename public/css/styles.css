@@ -1,0 +1,24 @@
+h1, h2 {
+	text-align: center;
+}
+
+.bg-img { 
+	background-image: url("../imgs/est3.jpeg");
+	filter: blur(4px);
+	-webkit-filter: blur(4px);
+
+	height: 100%;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#perfil:hover {
+	font-weight: 500;
+}
