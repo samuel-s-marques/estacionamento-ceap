@@ -1,4 +1,8 @@
 # estacionamento-ceap
+
+O projeto está **desatualizado**, pois foi feito em 2019, como um projeto de estudo, e não houve alterações importantes desde então. Então, não é seguro nem confiável o suficiente para ser usado em ambientes de produção.
+
+-----
 Minha versão do projeto proposto pelo professor. Auxiliado, no desenvolvimento do banco de dados. O trabalho era: criar uma página em HTML e PHP capaz de registrar dados básicos de um estacionamento para um banco de dados em SQL.
 
 ## Projeto finalizado
